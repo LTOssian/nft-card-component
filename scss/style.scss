@@ -53,17 +53,24 @@ body {
     }
 
 
-
-    h1, 
+    
     p {
         align-self: flex-start;
-        margin-bottom: 1440px * 1 / 100;
-        font-weight: 400;
+        margin-bottom: 14px;
+        font-weight: 300;
+        color: $primary1;  
+
     }
-    p, 
+    h1 {
+        font-size: 18px;
+        font-weight: 600;
+        align-self: flex-start;
+        margin-bottom: 21px;
+    }
+    
     span {
-      color: $primary1;  
-      font-weight: 300px;
+        color: $primary1;  
+        font-weight: 300;
     }
 
     .nft-pricing-time {
@@ -71,12 +78,12 @@ body {
         justify-content: space-between;
         margin-top: 1440px *1.5 /100;
         border-bottom: 1px solid $line-color;
-        padding-bottom: 1440px* 1.5 /100;
+        padding-bottom: 1440px* 2 /100;
         .eth-amount, .clock {
             display: flex;
             width: 1440px *7/100;
             align-items: center;
-            justify-content: space-between;
+            justify-content: space-around;
         }
         .eth-amount {
             color: $primary2;
@@ -87,7 +94,7 @@ body {
         display: flex;
         width: 1440px * 15/100;
         justify-content: space-between;
-        margin-top: 1440px * 1.5/100;
+        margin-top: 1440px * 1/100;
 
         img {
             margin: 0;
@@ -101,6 +108,7 @@ body {
             margin: 0;
             font-size: 16px;
             align-self: center;
+            font-weight: 400;
         }
     }
 
