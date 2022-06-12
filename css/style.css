@@ -15,7 +15,8 @@ body p {
 }
 
 .nft-card {
-  margin: 72px auto;
+  margin: 80px auto;
+  margin-bottom: 30px;
   height: 594px;
   width: 360px;
   display: flex;
