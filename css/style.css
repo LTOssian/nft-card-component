@@ -8,6 +8,9 @@ body {
   background: #0d192b;
   font-family: "Outfit", sans-serif;
   color: white;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
 }
 
 body p {
@@ -15,8 +18,9 @@ body p {
 }
 
 .nft-card {
-  margin: 80px auto;
-  margin-bottom: 30px;
+  /* margin: 80px auto;
+    margin-bottom: 30px;*/
+  margin: 100px 0 30px 0;
   height: 594px;
   width: 360px;
   display: flex;
@@ -49,6 +53,10 @@ body p {
   margin-bottom: 27px;
 }
 
+.nft-card img:hover {
+  cursor: pointer;
+}
+
 .nft-card p {
   align-self: flex-start;
   margin-bottom: 14px;
@@ -57,7 +65,7 @@ body p {
 }
 
 .nft-card h1 {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 600;
   align-self: flex-start;
   margin-bottom: 21px;
@@ -85,6 +93,7 @@ body p {
 
 .nft-card .nft-pricing-time .eth-amount {
   color: #00fff7;
+  font-weight: 600;
 }
 
 .nft-card .artist-profile {
