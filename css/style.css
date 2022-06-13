@@ -44,7 +44,14 @@ body p {
   color: #00fff7;
 }
 
-.nft-card img {
+.nft-card .img-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nft-card .img-container img {
   display: block;
   border-radius: 10px;
   width: 302.4px;
@@ -53,8 +60,17 @@ body p {
   margin-bottom: 27px;
 }
 
-.nft-card img:hover {
+.nft-card .img-container .secondary-img {
+  position: absolute;
+  margin: 0;
+  opacity: 0;
+  padding: 126.15px;
+}
+
+.nft-card .img-container :hover {
   cursor: pointer;
+  background: #00fff7;
+  opacity: 0.5;
 }
 
 .nft-card p {
